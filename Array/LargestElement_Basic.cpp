@@ -29,5 +29,5 @@ int main(void)
     cout << "Enter the elements of array: \n";
     for (int i=0; i<n; i++)
         cin >> arr[i];
-    cout << "The index of largest element is: "<< (getLargest(arr,n))+1;
+    cout << "The index of largest element is: "<< (getLargest(arr,n))+1 ;
 }
