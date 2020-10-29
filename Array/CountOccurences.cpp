@@ -58,10 +58,10 @@ int main(void)
     int n,x;
     cout << "Enter the size of array: ";
     cin >> n;
-    cout << "Enter the element whose occurence is to becounted in array: ";
+    cout << "Enter the element whose occurence is to be counted in array: ";
     cin >> x;
     int arr[n];
-    cout << "Enter the elements of array: \n";
+    cout << "Enter the elements of array in ascending order: \n";
     for (int i=0; i<n; i++)
         cin >> arr[i];
     cout << "The array is: ";
