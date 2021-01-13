@@ -23,7 +23,7 @@ void reverseWords(char str[],int n){
  
 int main(void) 
 { 
-    string s = "Welcome to Gfg";int n=s.length();char str[n];
+    string s = "Welcome to Earth";int n=s.length();char str[n];
     strcpy(str, s.c_str());
     cout<<"After reversing words in the string:"<<endl;
     reverseWords(str,n);
